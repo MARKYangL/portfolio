@@ -1,0 +1,26 @@
+/* DOCUMENT INFORMATION
+	- File Name: style.css
+	- StudentID:
+	- Student’s Name:
+	- Date:  2021-10-1
+*/
+.my-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-text {
+    background-color: #60b258;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
