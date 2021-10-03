@@ -24,3 +24,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.my-form {
+    border: 1px dashed #dcdee2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.my-footer {
+    background-color: #212121;
+}

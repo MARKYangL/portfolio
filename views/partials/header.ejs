@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/home">
             <div class="my-logo">
                 <div class="d-flex flex-row justify-content-center align-items-center logo-text ">P</div>
                 ortfolio
@@ -12,10 +12,7 @@
                     <a class="nav-link <%= router === 'home' ? 'active' : '' %>" aria-current="page"
                        href="./home">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link <%= router === 'about' ? 'active' : '' %>" aria-current="page" href="./about">About
-                        Me</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link <%= router === 'projects' ? 'active' : '' %>" aria-current="page"
                        href="./projects">Projects</a>
@@ -23,6 +20,10 @@
                 <li class="nav-item">
                     <a class="nav-link <%= router === 'services' ? 'active' : '' %>" aria-current="page"
                        href="./services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <%= router === 'about' ? 'active' : '' %>" aria-current="page" href="./about">About
+                        Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <%= router === 'contact' ? 'active' : '' %>" aria-current="page"
