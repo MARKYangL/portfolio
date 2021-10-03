@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'liyang-portfolio'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4491B549886A4559AC73A627ED23462D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_83BD769B0AD94BC08DF3AEAE6BF026E5 }}
           package: .
